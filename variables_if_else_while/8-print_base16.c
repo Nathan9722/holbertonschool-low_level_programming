@@ -11,11 +11,11 @@ int main(void)
 	int num;
 	int letter;
 
-	for (char num = 48; num <= 57; num++)
+	for (num = 48; num <= 57; num++)
 
 		putchar(num);
 
-	for (char letter = 97; letter <= 102; letter++)
+	for (letter = 97; letter <= 102; letter++)
 
 		putchar(letter);
 
