@@ -9,16 +9,17 @@
 
 int main(void)
 {
-	int hexa;
+	int num;
+	int letter;
 
-	for (char hexa = '0'; hexa <= '9'; hexa++)
+	for (char num = '0'; num <= '9'; num++)
 	{
-	putchar(hexa);
+	putchar(num);
 	}
 
-	for (char hexa = 'a'; hexa <= 'f'; hexa++)
+	for (char letter = 'a'; letter <= 'f'; letter++)
 	{
-	putchar(hexa);
+	putchar(letter);
 	}
 
 putchar('\n');
