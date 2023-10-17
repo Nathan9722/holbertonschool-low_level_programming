@@ -9,6 +9,8 @@
 
 int main(void)
 {
+	int hexa;
+
 	for (char hexa = '0'; hexa <= '9'; hexa++)
 	{
 	putchar(hexa);
