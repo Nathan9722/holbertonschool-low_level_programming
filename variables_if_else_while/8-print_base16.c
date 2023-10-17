@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <string.h>
+#include <time.h>
 /**
  * main - launch program to print base seize hexadecimal
  * Return: 0
@@ -20,5 +20,6 @@ int main(void)
 		putchar(letter);
 
 	putchar('\n');
+
 	return (0);
 }
