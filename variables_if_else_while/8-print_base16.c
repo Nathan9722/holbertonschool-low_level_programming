@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * main - launch program to print base 16 hexadecimal
+ * main - launch program to print base seize hexadecimal
  * Return: 0
  */
 
