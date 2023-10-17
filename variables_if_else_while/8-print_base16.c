@@ -11,15 +11,14 @@ int main(void)
 	int num;
 	int letter;
 
-	for (char num = '0'; num <= '9'; num++)
-	{
-	putchar(num);
-	}
-	for (char letter = 'a'; letter <= 'f'; letter++)
-	{
-	putchar(letter);
-	}
+	for (char num = 48; num <= 57; num++)
 
-putchar('\n');
-return (0);
+		putchar(num);
+
+	for (char letter = 97; letter <= 102; letter++)
+
+		putchar(letter);
+
+	putchar('\n');
+	return (0);
 }
