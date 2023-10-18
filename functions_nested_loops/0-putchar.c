@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * main - launch program to print the alphabet and avoid q and e
@@ -6,3 +6,9 @@
  */
 
 int main(void)
+
+{
+	printf("_putchar\n");
+	return (0);
+}
+
