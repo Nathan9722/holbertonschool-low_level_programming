@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * add - adding twot integers and returns the result
+ * add - adding two integers and returns the result
+ * @num1 + @num2 = add
  *
- * Return: 0
+ * Return: 0  
 */
 
 int add(int num1, int num2)
