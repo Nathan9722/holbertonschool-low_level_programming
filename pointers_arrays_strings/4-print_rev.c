@@ -1,15 +1,17 @@
 #include "main.h"
+#include <string.h>
 
 /**
- * int_rev - returns the length of a string
+ * print_rev - returns the length of a string
  * @s: string
- *
+ * @i: value of the string
  */
 void print_rev(char *s)
 {
-	int i;
+	int ster = strlen(s);
+	int i = 0;
 
-	for (i = *s - 1; i >= 0; i--)
+	for (i = ster - 1; i >= 0; i--)
 	{
 		_putchar (s[i]);
 	}
