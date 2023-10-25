@@ -4,7 +4,7 @@
 /**
  * print_rev - returns the length of a string
  * @s: string
- * @i: value of the string
+ *
  */
 void print_rev(char *s)
 {
