@@ -3,7 +3,7 @@
 
 /**
  * puts_half - prints half of a string
- * @i: is the value of index
+ * @str: pointers
  *
  */
 void puts_half(char *str)
