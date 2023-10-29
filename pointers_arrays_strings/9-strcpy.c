@@ -2,6 +2,8 @@
 
 /**
  * *_strcpy - function that copies the string pointed to by src
+ * @dest: pointer to the buffer
+ * @src: string copied
  *
  * Return: the pointer to dest
  */
@@ -18,7 +20,7 @@ char *_strcpy(char *dest, char *src)
 
 	for (i = 0; i < j; i++)
 	{
-		dest[i] = src [i];
+		dest[i] = src[i];
 	}
 	dest[i] = '\0';
 
